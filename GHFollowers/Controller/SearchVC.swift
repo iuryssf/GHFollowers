@@ -11,7 +11,7 @@ class SearchVC: UIViewController {
     
     let logoImageView = UIImageView()
     let usernameTextField = GFTextField()
-    let followersButton = GFButton(backgroundColor: .systemGreen, title: "Get Followers")
+    let followersButton = GFButton(color: .systemGreen, title: "Get Followers", systemImageName: "person.3")
     
     //Check if the Text Field is not empty
     var isUsernameEntered: Bool { return !usernameTextField.text!.isEmpty }
